@@ -41,7 +41,7 @@ class MainTableViewController: UITableViewController {
     
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        var boldController: BotDemoViewController
+        var boldController: UIViewController
         switch indexPath.row {
         case 1:
             boldController = AgentViewController()
@@ -53,6 +53,9 @@ class MainTableViewController: UITableViewController {
             boldController = RestoreChatDemoViewController()
         case 4:
             boldController = FileUploadDemoViewController()
+            break
+        case 5:
+            boldController = AutoCompleteDemoViewController()
             break
         default:
             boldController = BotDemoViewController()

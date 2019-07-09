@@ -6,6 +6,7 @@
 
 import UIKit
 import CoreData
+import Bold360AI
 
 class HistoryDemoViewController: BotDemoViewController {
 
@@ -22,7 +23,6 @@ class HistoryDemoViewController: BotDemoViewController {
         }
     }
     
-
     /*
     // MARK: - Navigation
 
@@ -33,4 +33,7 @@ class HistoryDemoViewController: BotDemoViewController {
     }
     */
 
+    override func shouldPresentWelcomeMessage() -> Bool {
+        return false
+    }
 }

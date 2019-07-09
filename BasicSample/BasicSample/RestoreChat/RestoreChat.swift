@@ -46,13 +46,15 @@ class RestoreChat: HistoryProvider {
     }
     
     func fetch(_ from: Int, handler: (([Any]?) -> Void)!) {
+        var sorted = [ChatHistoryItem]()
         if let items = self.group?.items {
             let temp = items.allObjects as! [ChatHistoryItem]
-            let sorted = temp.sorted { (first, second) -> Bool in
+            sorted = temp.sorted { (first, second) -> Bool in
                 first.timeStamp?.compare(second.timeStamp! as Date) == ComparisonResult.orderedAscending
             }
-            handler(sorted)
         }
+        
+        handler(sorted)
     }
     
     func store(_ item: StorableChatElement!) {

@@ -32,5 +32,11 @@
 		<key>icon</key>
 		<string>upload</string>
 	</dict>
+	<dict>
+		<key>title</key>
+		<string>AI Auto Complete</string>
+		<key>icon</key>
+		<string>search</string>
+	</dict>
 </array>
 </plist>

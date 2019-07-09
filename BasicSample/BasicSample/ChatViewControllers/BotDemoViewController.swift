@@ -13,8 +13,12 @@ class BotDemoViewController: UIViewController {
     
     func createAccount() -> Account {
         let account = BotAccount()
-        account.account = "nanorep"
-        account.knowledgeBase = "English"
+        account.account = "jio"
+        account.knowledgeBase = "Staging_Updated"
+        account.perform(Selector.init(("setServer:")), with:"qa07")
+//        account.welcomeMessageId = "1386322123"
+        
+        
         return account
     }
     
@@ -86,5 +90,9 @@ extension BotDemoViewController: ChatControllerDelegate {
         @unknown default:
             break
         }
+    }
+    
+    func shouldPresentWelcomeMessage() -> Bool {
+        return true
     }
 }
