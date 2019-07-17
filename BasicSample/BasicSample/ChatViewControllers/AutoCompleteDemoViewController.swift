@@ -35,7 +35,7 @@ class AutoCompleteDemoViewController: UIViewController {
         self.view.backgroundColor = .gray
         self.autoCompleteController.viewController.view.frame = CGRect(origin: CGPoint(x: 0,y: 150),
                                                 size: CGSize(width: self.view.frame.width,
-                                                             height: 60))
+                                                             height: 120))
         self.view.addSubview(self.autoCompleteController.viewController.view)
         self.addChild(self.autoCompleteController.viewController)
     }
