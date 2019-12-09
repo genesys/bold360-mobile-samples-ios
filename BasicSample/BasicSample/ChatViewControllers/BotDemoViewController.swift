@@ -27,6 +27,10 @@ class BotDemoViewController: UIViewController {
         // Do any additional setup after loading the view.
         self.view.backgroundColor = .white
         chatController = ChatController(account: createAccount())
+        let dFormatter = DateFormatter()
+        dFormatter.dateFormat = "HH:mm:ss.SSS"
+        chatController.viewConfiguration.incomingBotConfig.timeFormatter = dFormatter
+        chatController.viewConfiguration.chatViewConfig.maxLength = 3000
         chatController.handOver = self.handOver
         chatController.continuityProvider = self
         chatController.speechReconitionDelegate = self
@@ -110,6 +114,10 @@ extension BotDemoViewController: ContinuityProvider{
 }
 
 extension BotDemoViewController: SpeechReconitionDelegate {
+    func speechRecognitionNotAuthorizedRequset() {
+        
+    }
+    
     func speechRecognitionStatus(_ status: NRSpeechRecognizerAuthorizationStatus) {
         
     }

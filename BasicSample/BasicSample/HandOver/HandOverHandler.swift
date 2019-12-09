@@ -10,6 +10,14 @@ import UIKit
 import Bold360AI
 
 class HandOverHandler: NSObject, ChatHandler {
+    
+    
+    var shouldPresentChatBar: Bool {
+        return false
+    }
+    
+    var tracker: EventTracker!
+    
     var delegate: ChatHandlerDelegate!
     
     var chatControllerDelegate: ChatControllerDelegate!
