@@ -60,17 +60,20 @@ class MainTableViewController: UITableViewController {
             break
         case 6:
             let account = BotAccount()
-            account.account = "skrill"
-            account.knowledgeBase = "915309232"
-            account.apiKey = "961ce682-9f70-4b9a-b809-2a338714c31b";
-//            account.perform(Selector("setServer:"), with: "qa07")
+//            account.account = "skrill"
+//            account.knowledgeBase = "915309232"
+//            account.apiKey = "961ce682-9f70-4b9a-b809-2a338714c31b";
+            account.account = "gojek"
+            account.knowledgeBase = "English"
+            account.perform(Selector("setServer:"), with: "qa07")
             NanoRep.shared()?.prepare(with: account)
             NanoRep.shared()?.fetchConfiguration = { (configuration: NRConfiguration?, error: Error?) -> Void in
                 guard let config = configuration else {
                     print(error.debugDescription)
                     return
                 }
-                config.faqPresentationType = .supportCenter
+                config.useLabels = true
+//                config.faqPresentationType = .supportCenter
                 DispatchQueue.main.async {
                     let widgetViewController = NRWidgetViewController()
 //                    widgetViewController.infoHandler = self
