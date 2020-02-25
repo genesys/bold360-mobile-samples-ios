@@ -16,6 +16,10 @@ class HandOverHandler: HandOver {
         return false
     }
     
+    override var isTextToSpeechEnabled: Bool {
+        return false
+    }
+    
     override func startChat(_ chatHandlerParams: [String : Any]?) {
         // Present system message
         let system = RemoteChatElement(type: .SystemMessageElement, content: "This is Hand Over\nType Stop to get back to Bot")
