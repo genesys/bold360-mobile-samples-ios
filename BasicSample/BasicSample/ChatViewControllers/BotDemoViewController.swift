@@ -23,7 +23,14 @@ class BotDemoViewController: UIViewController {
         chatController.continuityProvider = self
         chatController.speechReconitionDelegate = self
         chatController.delegate = self
-        chatController.viewConfiguration.voiceToVoiceConfiguration.type = .default
+//        chatController.viewConfiguration?.voice   ToVoiceConfiguration.type = .default
+//        self.chatController.viewConfiguration.incomingBotConfig.quickOptionConfig.backgroundColor = UIColor.cyan;
+//        chatController.viewConfiguration.incomingBotConfig.dateStampColor = UIColor.green
+//        self.chatController.viewConfiguration.outgoingConfig.backgroundColor = UIColor.purple
+        
+//        self.chatController.viewConfiguration.incomingBotConfig.textColor = UIColor.blue
+//        chatController.viewConfiguration.searchViewConfig.voiceEnabled = true
+//        chatController.viewConfiguration.searchViewConfig.placeholderConfiguration?.text = ""
     }
     
     @objc func dismissChat(_ sender: UIBarButtonItem?) {
