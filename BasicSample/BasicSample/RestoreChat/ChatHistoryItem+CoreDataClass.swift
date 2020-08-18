@@ -11,9 +11,9 @@ import Bold360AI
 
 public class ChatHistoryItem: NSManagedObject, StorableChatElement {
     
-    public var feedbackStatus: FeedbackStatus {
-        return FeedbackStatus(rawValue: Int(self.likeStatus)) ?? .default
-    }
+//    public var feedbackStatus: FeedbackStatus {
+//        return FeedbackStatus(rawValue: Int(self.likeStatus)) ?? .default
+//    }
     
     public var articleId: NSNumber {
         set {
@@ -114,11 +114,11 @@ public class ChatHistoryItem: NSManagedObject, StorableChatElement {
                 self.config = NSEntityDescription.insertNewObject(forEntityName: "ChatConfiguration", into: context) as? ChatConfiguration
                 self.config?.configuration = self.element.configuration
             }
-            if let id = self.element.articleId?.stringValue {
-                self.messageId = id
-            }
+//            if let id = self.element.articleId?.stringValue {
+//                self.messageId = id
+//            }
             
-            self.likeStatus = Int16(self.element.feedbackStatus.rawValue)
+//            self.likeStatus = Int16(self.element.feedbackStatus.rawValue)
             self.itemStatus = Int16(self.element.status.rawValue)
             self.scope = Int16(self.element.statementScope.rawValue)
             self.json = self.element.storageKey

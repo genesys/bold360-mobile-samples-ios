@@ -98,21 +98,21 @@ class RestoreChat: NSObject, ChatElementDelegate {
         }
     }
     
-    func didUpdateFeedback(_ articleId: String!, feedbackState: FeedbackStatus) {
-        let fetchRequest = NSFetchRequest<ChatHistoryItem>(entityName: "ChatHistoryItem")
-        fetchRequest.predicate = NSPredicate(format: "messageId == %@", articleId)
-        do {
-            let result = try self.managedContext.fetch(fetchRequest)
-            
-            // We can get multiple articles with the same article id
-            result.forEach { (item) in
-                item.likeStatus = Int16(feedbackState.rawValue)
-            }
-            do {
-                try self.managedContext.save()
-            }
-        } catch {
-            print("fetch failed")
-        }
-    }
+//    func didUpdateFeedback(_ articleId: String!, feedbackState: FeedbackStatus) {
+//        let fetchRequest = NSFetchRequest<ChatHistoryItem>(entityName: "ChatHistoryItem")
+//        fetchRequest.predicate = NSPredicate(format: "messageId == %@", articleId)
+//        do {
+//            let result = try self.managedContext.fetch(fetchRequest)
+//            
+//            // We can get multiple articles with the same article id
+//            result.forEach { (item) in
+//                item.likeStatus = Int16(feedbackState.rawValue)
+//            }
+//            do {
+//                try self.managedContext.save()
+//            }
+//        } catch {
+//            print("fetch failed")
+//        }
+//    }
 }

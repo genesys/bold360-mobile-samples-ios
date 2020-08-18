@@ -15,7 +15,7 @@ class BotDemoViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        ChatController.clearCache(withInvalidDays:0)
+//        ChatController.clearCache(withInvalidDays:0)
         // Do any additional setup after loading the view.
         self.view.backgroundColor = .white
         chatController = ChatController(account: account)
@@ -23,7 +23,7 @@ class BotDemoViewController: UIViewController {
         chatController.continuityProvider = self
         chatController.speechReconitionDelegate = self
         chatController.delegate = self
-        chatController.viewConfiguration.voiceToVoiceConfiguration.type = .default
+//        chatController.viewConfiguration.voiceToVoiceConfiguration.type = .default
     }
     
     @objc func dismissChat(_ sender: UIBarButtonItem?) {
