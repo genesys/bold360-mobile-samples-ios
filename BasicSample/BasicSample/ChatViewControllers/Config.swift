@@ -59,6 +59,17 @@ class ConfigFactory {
     
     func updateLiveIncoming() {
         self.chatConfig.incomingLiveConfig.checkIncoming(self.colorType)
+        self.updateChatBar()
+    }
+    
+    func updateChatBar(){
+        let chatBarConfig = self.chatConfig.chatBarConfiguration!
+        chatBarConfig.endChatButtonEnabled = true /* Remove "End Chat Button" view display */
+        chatBarConfig.enabled = true /* Remove "ChatBar" view display */
+        chatBarConfig.endChatBtnTextColor = UIColor.purple
+        chatBarConfig.backgroundColor = UIColor.yellow
+        chatBarConfig.textColor = UIColor.red /* Changes the agentName text color */
+        chatBarConfig.font = UIFont.italicSystemFont(ofSize: 15) /* Changes the font for the agentName and EndChatButton */
     }
     
     func updateBotIncoming() {
@@ -200,9 +211,12 @@ extension OutgoingConfiguration {
         self.checkMessage(.basic)
         self.avatar = UIImage(named: "robot")
         if #available(iOS 13.0, *) {
-            self.pendingIcon = UIImage(systemName: "shuffle")
-            self.sentFailureIcon = UIImage(systemName: "prohibit")
-            self.sentSuccessfullyIcon = UIImage(named: "invitation")
+//            self.pendingIcon = UIImage(named: "history")
+            self.pendingIcon = nil
+            self.sentFailureIcon = UIImage(named: "bold")
+//            self.sentFailureIcon = nil
+//            self.sentSuccessfullyIcon = UIImage(named: "search")
+            self.sentSuccessfullyIcon = nil
         } else {
             // Fallback on earlier versions
         }
