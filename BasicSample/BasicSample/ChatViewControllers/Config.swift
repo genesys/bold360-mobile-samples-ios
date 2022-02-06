@@ -34,6 +34,7 @@ class ConfigFactory {
         self.updateBotIncoming()
         self.updateMultiLine()
         self.updateSearchBar()
+        self.updateForms()
     }
     
     func updateOutgoingConfig() {
@@ -106,6 +107,24 @@ class ConfigFactory {
         }
         self.chatConfig.multipleSelectionConfiguration.persistentOptionConfiguration.textColor = self.colorType.textColor
         self.chatConfig.multipleSelectionConfiguration.persistentOptionConfiguration.customFont = CustomFont(font: UIFont(name: "Times New Roman", size: 9.0)!)
+    } 
+    
+    func updateForms() {
+        self.chatConfig.formConfiguration.titleConfig.font = UIFont(name: "Times New Roman", size: 29.0)!
+        self.chatConfig.formConfiguration.titleConfig.textColor = UIColor.red
+
+        self.chatConfig.formConfiguration.textElementConfig.textColor = UIColor.blue
+        self.chatConfig.formConfiguration.textElementConfig.font = UIFont.systemFont(ofSize: 12)
+        self.chatConfig.formConfiguration.textElementConfig.labelConfiguration.textColor = UIColor.green
+        self.chatConfig.formConfiguration.textElementConfig.labelConfiguration.font = UIFont.systemFont(ofSize: 14)
+
+        self.chatConfig.formConfiguration.multiSelectElementConfig.textColor = UIColor.brown
+        self.chatConfig.formConfiguration.multiSelectElementConfig.font = UIFont.systemFont(ofSize: 18)
+        self.chatConfig.formConfiguration.multiSelectElementConfig.labelConfiguration.textColor = UIColor.purple
+        self.chatConfig.formConfiguration.multiSelectElementConfig.labelConfiguration.font = UIFont.systemFont(ofSize: 16)
+
+        self.chatConfig.formConfiguration.ratingTitleConfig.font = UIFont(name: "Times New Roman", size: 14.0)!
+        self.chatConfig.formConfiguration.ratingTitleConfig.textColor = UIColor.brown
     }
     
     
