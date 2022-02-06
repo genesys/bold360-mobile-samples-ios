@@ -69,3 +69,7 @@ fastlane/test_output
 iOSInjectionProject/
 Android/SDKSamples/.idea
 Android/SDKSamples/.gradle
+LegacyCodeTest/.DS_Store
+testFrameworks/.DS_Store
+TranscriptFetchSample/.DS_Store
+.DS_Store
