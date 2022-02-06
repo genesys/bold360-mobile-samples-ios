@@ -154,10 +154,6 @@ extension BotDemoViewController: ChatControllerDelegate {
             break
         }
     }
-    
-//    func didClickUploadFile() {
-//        
-//    }
 }
 
 extension BotDemoViewController: ContinuityProvider {
