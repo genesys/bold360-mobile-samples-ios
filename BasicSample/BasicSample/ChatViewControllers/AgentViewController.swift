@@ -25,3 +25,47 @@ class AgentViewController: BotDemoViewController, AccountProvider {
 //        viewController.viewControllers.first?.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "End Chat", style: .plain, target: self, action: #selector(AgentViewController.endChat(_:)))
     }
 }
+
+// FileUpload delegate implementation
+extension AgentViewController: UIDocumentPickerDelegate {
+    public func documentMenu(_ documentMenu:UIDocumentMenuViewController, didPickDocumentPicker documentPicker: UIDocumentPickerViewController) {
+        documentPicker.delegate = self
+        self.navigationController?.presentedViewController?.present(documentPicker, animated: true, completion: nil)
+    }
+    
+    public func documentPicker(_ controller: UIDocumentPickerViewController, didPickDocumentsAt urls: [URL]) {
+        let request = UploadRequest()
+        request.fileName = "fileName.pdf"
+        request.fileType = .default
+        
+        var data: Data!
+        
+        if FileManager.default.fileExists(atPath: urls.first!.path) {
+            data = FileManager.default.contents(atPath: urls.first!.path)
+        }
+        
+        request.fileData = data
+        
+        self.chatController.uploadFile(request, progress: { (progress) in
+            print("application file upload progress ->")
+        }) { (info) in
+            if((info.error) != nil) {
+                print(info.error.localizedDescription)
+                
+                let alert = UIAlertController(title: "Error", message:info.error.localizedDescription, preferredStyle: UIAlertController.Style.alert)
+
+                // add an action (button)
+                alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+
+                // show the alert
+                self.navigationController?.presentedViewController?.present(alert, animated: true, completion: nil)
+            }
+            self.chatController.handle(BoldEvent.fileUploaded(info))
+        }
+    }
+    
+    func documentPickerWasCancelled(_ controller: UIDocumentPickerViewController) {
+        print("view was cancelled")
+    }
+}
+
