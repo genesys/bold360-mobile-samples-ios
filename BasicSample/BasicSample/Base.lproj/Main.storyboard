@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WMN-Tb-p2E">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WMN-Tb-p2E">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -19,7 +19,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="f4t-mv-IiJ" customClass="DemoTableViewCell" customModule="BasicSample" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="414" height="60"/>
+                                <rect key="frame" x="0.0" y="44.5" width="414" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" tableViewCell="f4t-mv-IiJ" id="9mj-xT-Osc">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
@@ -88,53 +88,38 @@
                                     <segue destination="Jnh-gE-l9L" kind="embed" identifier="Top" id="maI-Pw-VJL"/>
                                 </connections>
                             </containerView>
-                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qOu-yL-Eev">
-                                <rect key="frame" x="0.0" y="88" width="414" height="54"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8ed-Pj-8Nw" customClass="AutoCompleteView">
+                                <rect key="frame" x="0.0" y="755" width="414" height="53"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="54" id="nbI-VR-9Lt"/>
+                                    <constraint firstAttribute="height" constant="53" id="BfH-kE-GB9"/>
                                 </constraints>
-                                <connections>
-                                    <segue destination="vwt-vf-qgu" kind="embed" identifier="Bottom" id="GiB-kE-OfQ"/>
-                                </connections>
-                            </containerView>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="wAL-Gf-Ms3"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="wAL-Gf-Ms3" firstAttribute="trailing" secondItem="8ed-Pj-8Nw" secondAttribute="trailing" id="0DB-sd-nMS"/>
                             <constraint firstItem="wAL-Gf-Ms3" firstAttribute="trailing" secondItem="f18-7H-m7i" secondAttribute="trailing" id="JUr-mf-Qkg"/>
                             <constraint firstItem="wAL-Gf-Ms3" firstAttribute="bottom" secondItem="f18-7H-m7i" secondAttribute="bottom" id="T6p-gO-ZgS"/>
+                            <constraint firstItem="f18-7H-m7i" firstAttribute="top" secondItem="8ed-Pj-8Nw" secondAttribute="bottom" id="Zo6-fQ-0iN"/>
                             <constraint firstItem="f18-7H-m7i" firstAttribute="leading" secondItem="wAL-Gf-Ms3" secondAttribute="leading" id="fmX-2O-Yuv"/>
-                            <constraint firstItem="qOu-yL-Eev" firstAttribute="top" secondItem="wAL-Gf-Ms3" secondAttribute="top" id="kGA-r8-Upx"/>
-                            <constraint firstItem="qOu-yL-Eev" firstAttribute="leading" secondItem="wAL-Gf-Ms3" secondAttribute="leading" id="tYY-uD-jLB"/>
-                            <constraint firstItem="wAL-Gf-Ms3" firstAttribute="trailing" secondItem="qOu-yL-Eev" secondAttribute="trailing" id="uXP-19-DB2"/>
+                            <constraint firstItem="8ed-Pj-8Nw" firstAttribute="leading" secondItem="wAL-Gf-Ms3" secondAttribute="leading" id="kTe-Bj-tKA"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="autoCompleteView" destination="8ed-Pj-8Nw" id="dbR-9C-CG7"/>
                         <outlet property="bottomConstraint" destination="T6p-gO-ZgS" id="djR-Oo-D6k"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qmH-qp-ztt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1661.5999999999999" y="-44.527736131934034"/>
-        </scene>
-        <!--Search View Controller-->
-        <scene sceneID="H1y-CQ-OUU">
-            <objects>
-                <viewController id="vwt-vf-qgu" customClass="SearchViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="m69-x8-koh">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="54"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="tGM-Yl-VxZ"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zku-qI-VQ5" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2553" y="-305"/>
+            <point key="canvasLocation" x="1660.8695652173915" y="-44.866071428571423"/>
         </scene>
         <!--Search View Controller-->
         <scene sceneID="dW3-I2-ruD">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hdf-6Y-iq0" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="Jnh-gE-l9L" customClass="SearchViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mbW-ID-cph">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="54"/>
@@ -143,9 +128,8 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hdf-6Y-iq0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2554" y="2"/>
+            <point key="canvasLocation" x="2449" y="148"/>
         </scene>
         <!--Embed Demo View Controller-->
         <scene sceneID="1rc-Ki-qXy">
@@ -268,7 +252,7 @@
                                 </constraints>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="departmentId" id="ZI1-6C-zxY">
-                                        <rect key="frame" x="0.0" y="28" width="330" height="43.5"/>
+                                        <rect key="frame" x="0.0" y="44.5" width="330" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZI1-6C-zxY" id="KQp-IA-tAe">
                                             <rect key="frame" x="0.0" y="0.0" width="330" height="43.5"/>
@@ -278,7 +262,7 @@
                                 </prototypes>
                             </tableView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose Department" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WPA-WA-Ajx">
-                                <rect key="frame" x="85" y="206" width="244" height="33.5"/>
+                                <rect key="frame" x="98" y="209.5" width="218" height="30"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -374,7 +358,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZHt-fv-xZO">
-                                <rect key="frame" x="171.5" y="287" width="71" height="30"/>
+                                <rect key="frame" x="172" y="287" width="70" height="30"/>
                                 <state key="normal" title="Start Chat"/>
                                 <connections>
                                     <action selector="loadChat:" destination="rjn-Wv-BKv" eventType="touchUpInside" id="yaw-HU-a18"/>

@@ -14,6 +14,7 @@ class AutoCompleteViewController: UIViewController {
     var account: Account!
     @IBOutlet weak var bottomConstraint: NSLayoutConstraint!
     
+    @IBOutlet weak var autoCompleteView: AutoCompleteView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -41,19 +42,17 @@ class AutoCompleteViewController: UIViewController {
         guard let controller = segue.destination as? SearchViewController else {
             return
         }
-        if segue.identifier == "Top" {
-            controller.autoCompleteOnTop = true
-            
-            // Testing configuration
-            let config = SearchViewConfiguration()
-            let autoCompleteConfig = AutoCompleteConfiguration()
-            autoCompleteConfig.textColor = UIColor.red
-            config.autoCompleteConfiguration = autoCompleteConfig
-            controller.configuration = config
-        }
-        
+              
+        // Testing configuration
+        let config = SearchViewConfiguration()
+        let autoCompleteConfig = AutoCompleteConfiguration()
+        autoCompleteConfig.textColor = UIColor.red
+        config.autoCompleteConfiguration = autoCompleteConfig
+        controller.configuration = config
+   
         controller.delegate = self
         controller.account = self.account
+        controller.autoCompleteView = self.autoCompleteView
         controller.view.layer.borderColor = UIColor.red.cgColor
         controller.view.layer.borderWidth = 2.0
     }
