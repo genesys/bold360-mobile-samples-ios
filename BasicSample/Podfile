@@ -23,9 +23,7 @@ source 'https://github.com/genesys/Bold360ai-SDK-Specs.git'
 
 source 'https://github.com/CocoaPods/Specs'
 
-target 'BasicSample' do
-    pod 'OpalImagePicker'
-    
+target 'BasicSample' do    
     if defined? BLD_360_AI
         pod 'BoldCore', :path => BLD_CORE
         pod 'BoldAIEngine', :path => BLD_AI_ENGINE
