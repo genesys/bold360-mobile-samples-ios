@@ -26,10 +26,10 @@ class BotDemoViewController: UIViewController {
         
         chatController.viewConfiguration.voiceToVoiceConfiguration.type = .default
         chatController.viewConfiguration.incomingBotConfig.maxLength = 500
-        if let config = self.chatConfiguration {
-            config.incomingBotConfig.avatrImageName = "robot"
-            chatController.viewConfiguration = config
-        }
+//        if let config = self.chatConfiguration {
+//            config.incomingBotConfig.avatrImageName = "robot"
+//            chatController.viewConfiguration = config
+//        }
         
     }
     
