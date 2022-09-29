@@ -1,6 +1,6 @@
 //
 //  AccountTableViewController.swift
-//  BoldDemo
+//  GenesysBoldMessenger
 //
 //  Created by Nissim Pardo on 10/03/2019.
 //  Copyright © 2019 bold360ai. All rights reserved.

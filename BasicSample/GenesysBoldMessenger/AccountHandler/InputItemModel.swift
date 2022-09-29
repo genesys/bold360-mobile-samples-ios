@@ -1,6 +1,6 @@
 //
 //  InputItemModel.swift
-//  BoldDemo
+//  GenesysBoldMessenger
 //
 //  Created by Nissim Pardo on 27/02/2019.
 //  Copyright © 2019 bold360ai. All rights reserved.
