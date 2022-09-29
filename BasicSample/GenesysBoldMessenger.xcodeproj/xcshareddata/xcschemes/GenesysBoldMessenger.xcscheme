@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AF12C89E21D22C90007450EF"
-               BuildableName = "BasicSample.app"
-               BlueprintName = "BasicSample"
-               ReferencedContainer = "container:BasicSample.xcodeproj">
+               BuildableName = "GenesysBoldMessenger.app"
+               BlueprintName = "GenesysBoldMessenger"
+               ReferencedContainer = "container:GenesysBoldMessenger.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -31,9 +31,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AF12C89E21D22C90007450EF"
-            BuildableName = "BasicSample.app"
-            BlueprintName = "BasicSample"
-            ReferencedContainer = "container:BasicSample.xcodeproj">
+            BuildableName = "GenesysBoldMessenger.app"
+            BlueprintName = "GenesysBoldMessenger"
+            ReferencedContainer = "container:GenesysBoldMessenger.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <Testables>
@@ -54,9 +54,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AF12C89E21D22C90007450EF"
-            BuildableName = "BasicSample.app"
-            BlueprintName = "BasicSample"
-            ReferencedContainer = "container:BasicSample.xcodeproj">
+            BuildableName = "GenesysBoldMessenger.app"
+            BlueprintName = "GenesysBoldMessenger"
+            ReferencedContainer = "container:GenesysBoldMessenger.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -71,9 +71,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AF12C89E21D22C90007450EF"
-            BuildableName = "BasicSample.app"
-            BlueprintName = "BasicSample"
-            ReferencedContainer = "container:BasicSample.xcodeproj">
+            BuildableName = "GenesysBoldMessenger.app"
+            BlueprintName = "GenesysBoldMessenger"
+            ReferencedContainer = "container:GenesysBoldMessenger.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

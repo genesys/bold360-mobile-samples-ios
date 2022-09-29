@@ -21,7 +21,7 @@ class MainTableViewController: UITableViewController {
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
         self.demos = self.extarctPlist
-        self.title = "Bold360 SDK Demos"
+        self.title = "Genesys Bold Messenger"
         self.configHandler.colorType = .basic
     }
 

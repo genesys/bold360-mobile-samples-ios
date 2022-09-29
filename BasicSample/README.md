@@ -3,7 +3,7 @@
 1. Open terminal and:
 
 ```
-cd BasicSample
+cd GenesysBoldMessenger
 ```
 
 2. Use cocoapods command:

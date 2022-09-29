@@ -51,14 +51,14 @@
 		AFF9BCAB22E86CC60078DD8A /* AvailibilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF9BCAA22E86CC60078DD8A /* AvailibilityViewController.swift */; };
 		CEB582A325CC15ED001C2CDA /* ColorTypeSwitcher.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEB582A225CC15ED001C2CDA /* ColorTypeSwitcher.xib */; };
 		CEB582A625CC18EB001C2CDA /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB582A525CC18EB001C2CDA /* Config.swift */; };
-		D02023A68DBCD3CB356CEBD4 /* Pods_BasicSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11EF08AFF86225A407F84046 /* Pods_BasicSample.framework */; };
+		D02023A68DBCD3CB356CEBD4 /* Pods_GenesysBoldMessenger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11EF08AFF86225A407F84046 /* Pods_GenesysBoldMessenger.framework */; };
 		EC4BF4DF2554602F00AF438D /* BoldFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4BF4DE2554602F00AF438D /* BoldFormViewController.swift */; };
 		ECE12751231BB34700A362C7 /* ContinuityDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE12750231BB34700A362C7 /* ContinuityDemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		06F5A220058BFC7075956934 /* Pods-BasicSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicSample.debug.xcconfig"; path = "Target Support Files/Pods-BasicSample/Pods-BasicSample.debug.xcconfig"; sourceTree = "<group>"; };
-		11EF08AFF86225A407F84046 /* Pods_BasicSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BasicSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		06F5A220058BFC7075956934 /* Pods-GenesysBoldMessenger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenesysBoldMessenger.debug.xcconfig"; path = "Target Support Files/Pods-GenesysBoldMessenger/Pods-GenesysBoldMessenger.debug.xcconfig"; sourceTree = "<group>"; };
+		11EF08AFF86225A407F84046 /* Pods_GenesysBoldMessenger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GenesysBoldMessenger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		483EA67B2369CA7000B9BBE1 /* HandOverHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandOverHandler.swift; sourceTree = "<group>"; };
 		4848891F22EEF871000CF01E /* EmbedDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbedDemoViewController.swift; sourceTree = "<group>"; };
 		484F086F23D5AFE30013046C /* LiveAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveAccountViewController.swift; sourceTree = "<group>"; };
@@ -94,17 +94,17 @@
 		48A5A19922761DCB0073F57B /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		48A5A19B227635FD0073F57B /* DemoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTableViewCell.swift; sourceTree = "<group>"; };
 		48F6DBA1230C4220008EA1A0 /* AutoCompleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoCompleteViewController.swift; sourceTree = "<group>"; };
-		AF12C89F21D22C90007450EF /* BasicSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF12C89F21D22C90007450EF /* GenesysBoldMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GenesysBoldMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF12C8A221D22C90007450EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF12C8A721D22C90007450EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF12C8A921D22C91007450EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF12C8AC21D22C91007450EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF12C8AE21D22C91007450EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AF31F5E722A3F1F00033786E /* BasicSample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BasicSample.entitlements; sourceTree = "<group>"; };
+		AF31F5E722A3F1F00033786E /* GenesysBoldMessenger.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GenesysBoldMessenger.entitlements; sourceTree = "<group>"; };
 		AF91186B238D1583007F5D3A /* CustomFileUploadDemoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFileUploadDemoVC.swift; sourceTree = "<group>"; };
 		AF911887239000DB007F5D3A /* FileUploadDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileUploadDemoViewController.swift; sourceTree = "<group>"; };
 		AFF9BCAA22E86CC60078DD8A /* AvailibilityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailibilityViewController.swift; sourceTree = "<group>"; };
-		BF895488930BCF1BF608D806 /* Pods-BasicSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicSample.release.xcconfig"; path = "Target Support Files/Pods-BasicSample/Pods-BasicSample.release.xcconfig"; sourceTree = "<group>"; };
+		BF895488930BCF1BF608D806 /* Pods-GenesysBoldMessenger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenesysBoldMessenger.release.xcconfig"; path = "Target Support Files/Pods-GenesysBoldMessenger/Pods-GenesysBoldMessenger.release.xcconfig"; sourceTree = "<group>"; };
 		CEB582A225CC15ED001C2CDA /* ColorTypeSwitcher.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColorTypeSwitcher.xib; sourceTree = "<group>"; };
 		CEB582A525CC18EB001C2CDA /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		EC4BF4DE2554602F00AF438D /* BoldFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoldFormViewController.swift; sourceTree = "<group>"; };
@@ -116,7 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D02023A68DBCD3CB356CEBD4 /* Pods_BasicSample.framework in Frameworks */,
+				D02023A68DBCD3CB356CEBD4 /* Pods_GenesysBoldMessenger.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +195,7 @@
 		5C569CF4F58E4D9ACA8BCFAA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				11EF08AFF86225A407F84046 /* Pods_BasicSample.framework */,
+				11EF08AFF86225A407F84046 /* Pods_GenesysBoldMessenger.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -203,7 +203,7 @@
 		AF12C89621D22C90007450EF = {
 			isa = PBXGroup;
 			children = (
-				AF12C8A121D22C90007450EF /* BasicSample */,
+				AF12C8A121D22C90007450EF /* GenesysBoldMessenger */,
 				AF12C8A021D22C90007450EF /* Products */,
 				B7C6AE904CE1881071FF9D83 /* Pods */,
 				5C569CF4F58E4D9ACA8BCFAA /* Frameworks */,
@@ -213,12 +213,12 @@
 		AF12C8A021D22C90007450EF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AF12C89F21D22C90007450EF /* BasicSample.app */,
+				AF12C89F21D22C90007450EF /* GenesysBoldMessenger.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AF12C8A121D22C90007450EF /* BasicSample */ = {
+		AF12C8A121D22C90007450EF /* GenesysBoldMessenger */ = {
 			isa = PBXGroup;
 			children = (
 				CEB582A125CC15BD001C2CDA /* Configuration */,
@@ -226,7 +226,7 @@
 				486C0B3223D462F600544AAE /* AccountHandler */,
 				486C0B2923D4625600544AAE /* Cells */,
 				483EA67A2369CA5000B9BBE1 /* HandOver */,
-				AF31F5E722A3F1F00033786E /* BasicSample.entitlements */,
+				AF31F5E722A3F1F00033786E /* GenesysBoldMessenger.entitlements */,
 				487351CA22784A260029F295 /* ChatViewControllers */,
 				4899614522773FC200D86590 /* RestoreChat */,
 				AF12C8A221D22C90007450EF /* AppDelegate.swift */,
@@ -240,7 +240,7 @@
 				48A5A19B227635FD0073F57B /* DemoTableViewCell.swift */,
 				484F086F23D5AFE30013046C /* LiveAccountViewController.swift */,
 			);
-			path = BasicSample;
+			path = GenesysBoldMessenger;
 			sourceTree = "<group>";
 		};
 		AF91186D238D1590007F5D3A /* FileUpload */ = {
@@ -255,8 +255,8 @@
 		B7C6AE904CE1881071FF9D83 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				06F5A220058BFC7075956934 /* Pods-BasicSample.debug.xcconfig */,
-				BF895488930BCF1BF608D806 /* Pods-BasicSample.release.xcconfig */,
+				06F5A220058BFC7075956934 /* Pods-GenesysBoldMessenger.debug.xcconfig */,
+				BF895488930BCF1BF608D806 /* Pods-GenesysBoldMessenger.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -272,9 +272,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AF12C89E21D22C90007450EF /* BasicSample */ = {
+		AF12C89E21D22C90007450EF /* GenesysBoldMessenger */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF12C8B121D22C91007450EF /* Build configuration list for PBXNativeTarget "BasicSample" */;
+			buildConfigurationList = AF12C8B121D22C91007450EF /* Build configuration list for PBXNativeTarget "GenesysBoldMessenger" */;
 			buildPhases = (
 				6B5C4FBC6B40340CBA10C542 /* [CP] Check Pods Manifest.lock */,
 				AF12C89B21D22C90007450EF /* Sources */,
@@ -286,9 +286,9 @@
 			);
 			dependencies = (
 			);
-			name = BasicSample;
-			productName = BasicSample;
-			productReference = AF12C89F21D22C90007450EF /* BasicSample.app */;
+			name = GenesysBoldMessenger;
+			productName = GenesysBoldMessenger;
+			productReference = AF12C89F21D22C90007450EF /* GenesysBoldMessenger.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -311,7 +311,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AF12C89A21D22C90007450EF /* Build configuration list for PBXProject "BasicSample" */;
+			buildConfigurationList = AF12C89A21D22C90007450EF /* Build configuration list for PBXProject "GenesysBoldMessenger" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -324,7 +324,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AF12C89E21D22C90007450EF /* BasicSample */,
+				AF12C89E21D22C90007450EF /* GenesysBoldMessenger */,
 			);
 		};
 /* End PBXProject section */
@@ -367,7 +367,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BasicSample-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-GenesysBoldMessenger-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -380,15 +380,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BasicSample/Pods-BasicSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-GenesysBoldMessenger/Pods-GenesysBoldMessenger-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BasicSample/Pods-BasicSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-GenesysBoldMessenger/Pods-GenesysBoldMessenger-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BasicSample/Pods-BasicSample-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GenesysBoldMessenger/Pods-GenesysBoldMessenger-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -575,13 +575,13 @@
 		};
 		AF12C8B221D22C91007450EF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06F5A220058BFC7075956934 /* Pods-BasicSample.debug.xcconfig */;
+			baseConfigurationReference = 06F5A220058BFC7075956934 /* Pods-GenesysBoldMessenger.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9U57N843V9;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				INFOPLIST_FILE = BasicSample/Info.plist;
+				INFOPLIST_FILE = GenesysBoldMessenger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -612,13 +612,13 @@
 		};
 		AF12C8B321D22C91007450EF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF895488930BCF1BF608D806 /* Pods-BasicSample.release.xcconfig */;
+			baseConfigurationReference = BF895488930BCF1BF608D806 /* Pods-GenesysBoldMessenger.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9U57N843V9;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				INFOPLIST_FILE = BasicSample/Info.plist;
+				INFOPLIST_FILE = GenesysBoldMessenger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -651,7 +651,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AF12C89A21D22C90007450EF /* Build configuration list for PBXProject "BasicSample" */ = {
+		AF12C89A21D22C90007450EF /* Build configuration list for PBXProject "GenesysBoldMessenger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF12C8AF21D22C91007450EF /* Debug */,
@@ -660,7 +660,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF12C8B121D22C91007450EF /* Build configuration list for PBXNativeTarget "BasicSample" */ = {
+		AF12C8B121D22C91007450EF /* Build configuration list for PBXNativeTarget "GenesysBoldMessenger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF12C8B221D22C91007450EF /* Debug */,

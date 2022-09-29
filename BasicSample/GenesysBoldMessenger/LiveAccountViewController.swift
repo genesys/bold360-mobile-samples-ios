@@ -1,6 +1,6 @@
 //
 //  LiveAccountViewController.swift
-//  BasicSample
+//  GenesysBoldMessenger
 //
 //  Created by Nissim on 20/01/2020.
 //  Copyright © 2020 bold360ai. All rights reserved.

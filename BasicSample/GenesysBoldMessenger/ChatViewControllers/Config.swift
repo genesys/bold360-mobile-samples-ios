@@ -1,6 +1,6 @@
 //
 //  Config.swift
-//  BasicSample
+//  GenesysBoldMessenger
 //
 //  Created by user on 04/02/2021.
 //  Copyright © 2021 bold360ai. All rights reserved.

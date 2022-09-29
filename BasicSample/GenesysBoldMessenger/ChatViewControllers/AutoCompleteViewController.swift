@@ -1,6 +1,6 @@
 //
 //  AutoCompleteViewController.swift
-//  BasicSample
+//  GenesysBoldMessenger
 //
 //  Created by Nissim on 20/08/2019.
 //  Copyright © 2019 bold360ai. All rights reserved.

@@ -1,6 +1,6 @@
 //
 //  HandOverHandler.swift
-//  BasicSample
+//  GenesysBoldMessenger
 //
 //  Created by Nissim on 30/10/2019.
 //  Copyright © 2019 bold360ai. All rights reserved.

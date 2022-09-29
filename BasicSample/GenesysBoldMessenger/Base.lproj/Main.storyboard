@@ -12,13 +12,13 @@
         <!--Main Table View Controller-->
         <scene sceneID="TKA-zl-eGc">
             <objects>
-                <tableViewController id="CjK-gj-eKx" customClass="MainTableViewController" customModule="BasicSample" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="CjK-gj-eKx" customClass="MainTableViewController" customModule="GenesysBoldMessenger" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="60" estimatedRowHeight="-1" sectionHeaderHeight="44" sectionFooterHeight="28" id="dpi-dj-AnB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="f4t-mv-IiJ" customClass="DemoTableViewCell" customModule="BasicSample" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="f4t-mv-IiJ" customClass="DemoTableViewCell" customModule="GenesysBoldMessenger" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" tableViewCell="f4t-mv-IiJ" id="9mj-xT-Osc">
@@ -74,7 +74,7 @@
         <!--Auto Complete View Controller-->
         <scene sceneID="bTk-cP-ZYw">
             <objects>
-                <viewController id="sQn-5T-K7x" customClass="AutoCompleteViewController" customModule="BasicSample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="sQn-5T-K7x" customClass="AutoCompleteViewController" customModule="GenesysBoldMessenger" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JdM-g9-4SB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -150,7 +150,7 @@
         <!--Embed Demo View Controller-->
         <scene sceneID="1rc-Ki-qXy">
             <objects>
-                <viewController storyboardIdentifier="Embed" id="hvu-ef-IdX" customClass="EmbedDemoViewController" customModule="BasicSample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Embed" id="hvu-ef-IdX" customClass="EmbedDemoViewController" customModule="GenesysBoldMessenger" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BDM-kF-42D">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -202,7 +202,7 @@
         <!--Availibility View Controller-->
         <scene sceneID="Sri-DH-frb">
             <objects>
-                <viewController id="401-GB-6sh" customClass="AvailibilityViewController" customModule="BasicSample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="401-GB-6sh" customClass="AvailibilityViewController" customModule="GenesysBoldMessenger" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="F5N-h5-eg5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -309,7 +309,7 @@
         <!--Bold Form View Controller-->
         <scene sceneID="CuK-Qr-y1d">
             <objects>
-                <viewController storyboardIdentifier="boldForm" id="CIG-kG-ISA" customClass="BoldFormViewController" customModule="BasicSample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="boldForm" id="CIG-kG-ISA" customClass="BoldFormViewController" customModule="GenesysBoldMessenger" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Xqw-wW-euB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -363,7 +363,7 @@
         <!--Live Account View Controller-->
         <scene sceneID="8z3-2f-5Kp">
             <objects>
-                <viewController storyboardIdentifier="LiveAccountViewController" id="rjn-Wv-BKv" customClass="LiveAccountViewController" customModule="BasicSample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LiveAccountViewController" id="rjn-Wv-BKv" customClass="LiveAccountViewController" customModule="GenesysBoldMessenger" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="guv-C8-LSa">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
