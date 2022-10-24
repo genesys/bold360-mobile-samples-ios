@@ -42,6 +42,7 @@
 		48A5A19A22761DCB0073F57B /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A5A19922761DCB0073F57B /* MainTableViewController.swift */; };
 		48A5A19C227635FD0073F57B /* DemoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A5A19B227635FD0073F57B /* DemoTableViewCell.swift */; };
 		48F6DBA2230C4220008EA1A0 /* AutoCompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F6DBA1230C4220008EA1A0 /* AutoCompleteViewController.swift */; };
+		86E19AF31535DA9C51563E94 /* Pods_GenesysBoldMessenger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9E101E39E0FFACAE51E26AB /* Pods_GenesysBoldMessenger.framework */; };
 		AF12C8A321D22C90007450EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF12C8A221D22C90007450EF /* AppDelegate.swift */; };
 		AF12C8A821D22C90007450EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF12C8A621D22C90007450EF /* Main.storyboard */; };
 		AF12C8AA21D22C91007450EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF12C8A921D22C91007450EF /* Assets.xcassets */; };
@@ -51,14 +52,12 @@
 		AFF9BCAB22E86CC60078DD8A /* AvailibilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF9BCAA22E86CC60078DD8A /* AvailibilityViewController.swift */; };
 		CEB582A325CC15ED001C2CDA /* ColorTypeSwitcher.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEB582A225CC15ED001C2CDA /* ColorTypeSwitcher.xib */; };
 		CEB582A625CC18EB001C2CDA /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB582A525CC18EB001C2CDA /* Config.swift */; };
-		D02023A68DBCD3CB356CEBD4 /* Pods_GenesysBoldMessenger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11EF08AFF86225A407F84046 /* Pods_GenesysBoldMessenger.framework */; };
 		EC4BF4DF2554602F00AF438D /* BoldFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4BF4DE2554602F00AF438D /* BoldFormViewController.swift */; };
 		ECE12751231BB34700A362C7 /* ContinuityDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE12750231BB34700A362C7 /* ContinuityDemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		06F5A220058BFC7075956934 /* Pods-GenesysBoldMessenger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenesysBoldMessenger.debug.xcconfig"; path = "Target Support Files/Pods-GenesysBoldMessenger/Pods-GenesysBoldMessenger.debug.xcconfig"; sourceTree = "<group>"; };
-		11EF08AFF86225A407F84046 /* Pods_GenesysBoldMessenger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GenesysBoldMessenger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BBCA9FD0BDC868F890C0BA1 /* Pods-GenesysBoldMessenger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenesysBoldMessenger.debug.xcconfig"; path = "Target Support Files/Pods-GenesysBoldMessenger/Pods-GenesysBoldMessenger.debug.xcconfig"; sourceTree = "<group>"; };
 		483EA67B2369CA7000B9BBE1 /* HandOverHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandOverHandler.swift; sourceTree = "<group>"; };
 		4848891F22EEF871000CF01E /* EmbedDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbedDemoViewController.swift; sourceTree = "<group>"; };
 		484F086F23D5AFE30013046C /* LiveAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveAccountViewController.swift; sourceTree = "<group>"; };
@@ -104,11 +103,12 @@
 		AF91186B238D1583007F5D3A /* CustomFileUploadDemoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFileUploadDemoVC.swift; sourceTree = "<group>"; };
 		AF911887239000DB007F5D3A /* FileUploadDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileUploadDemoViewController.swift; sourceTree = "<group>"; };
 		AFF9BCAA22E86CC60078DD8A /* AvailibilityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailibilityViewController.swift; sourceTree = "<group>"; };
-		BF895488930BCF1BF608D806 /* Pods-GenesysBoldMessenger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenesysBoldMessenger.release.xcconfig"; path = "Target Support Files/Pods-GenesysBoldMessenger/Pods-GenesysBoldMessenger.release.xcconfig"; sourceTree = "<group>"; };
+		B9E101E39E0FFACAE51E26AB /* Pods_GenesysBoldMessenger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GenesysBoldMessenger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB582A225CC15ED001C2CDA /* ColorTypeSwitcher.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColorTypeSwitcher.xib; sourceTree = "<group>"; };
 		CEB582A525CC18EB001C2CDA /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		EC4BF4DE2554602F00AF438D /* BoldFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoldFormViewController.swift; sourceTree = "<group>"; };
 		ECE12750231BB34700A362C7 /* ContinuityDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinuityDemoViewController.swift; sourceTree = "<group>"; };
+		F64987634AE56167948A0760 /* Pods-GenesysBoldMessenger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenesysBoldMessenger.release.xcconfig"; path = "Target Support Files/Pods-GenesysBoldMessenger/Pods-GenesysBoldMessenger.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D02023A68DBCD3CB356CEBD4 /* Pods_GenesysBoldMessenger.framework in Frameworks */,
+				86E19AF31535DA9C51563E94 /* Pods_GenesysBoldMessenger.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,10 +192,10 @@
 			path = RestoreChat;
 			sourceTree = "<group>";
 		};
-		5C569CF4F58E4D9ACA8BCFAA /* Frameworks */ = {
+		5686105B1B4BC3227537E390 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				11EF08AFF86225A407F84046 /* Pods_GenesysBoldMessenger.framework */,
+				B9E101E39E0FFACAE51E26AB /* Pods_GenesysBoldMessenger.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -206,7 +206,7 @@
 				AF12C8A121D22C90007450EF /* GenesysBoldMessenger */,
 				AF12C8A021D22C90007450EF /* Products */,
 				B7C6AE904CE1881071FF9D83 /* Pods */,
-				5C569CF4F58E4D9ACA8BCFAA /* Frameworks */,
+				5686105B1B4BC3227537E390 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -255,8 +255,8 @@
 		B7C6AE904CE1881071FF9D83 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				06F5A220058BFC7075956934 /* Pods-GenesysBoldMessenger.debug.xcconfig */,
-				BF895488930BCF1BF608D806 /* Pods-GenesysBoldMessenger.release.xcconfig */,
+				2BBCA9FD0BDC868F890C0BA1 /* Pods-GenesysBoldMessenger.debug.xcconfig */,
+				F64987634AE56167948A0760 /* Pods-GenesysBoldMessenger.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -276,11 +276,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF12C8B121D22C91007450EF /* Build configuration list for PBXNativeTarget "GenesysBoldMessenger" */;
 			buildPhases = (
-				6B5C4FBC6B40340CBA10C542 /* [CP] Check Pods Manifest.lock */,
+				48F37DDF9DE95ABF09E170DE /* [CP] Check Pods Manifest.lock */,
 				AF12C89B21D22C90007450EF /* Sources */,
 				AF12C89C21D22C90007450EF /* Frameworks */,
 				AF12C89D21D22C90007450EF /* Resources */,
-				8D1C0DFC8556F98C459096AD /* [CP] Embed Pods Frameworks */,
+				9EBB11AA3320D08FF43BF565 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -352,7 +352,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6B5C4FBC6B40340CBA10C542 /* [CP] Check Pods Manifest.lock */ = {
+		48F37DDF9DE95ABF09E170DE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -374,7 +374,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8D1C0DFC8556F98C459096AD /* [CP] Embed Pods Frameworks */ = {
+		9EBB11AA3320D08FF43BF565 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -575,7 +575,7 @@
 		};
 		AF12C8B221D22C91007450EF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06F5A220058BFC7075956934 /* Pods-GenesysBoldMessenger.debug.xcconfig */;
+			baseConfigurationReference = 2BBCA9FD0BDC868F890C0BA1 /* Pods-GenesysBoldMessenger.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -587,7 +587,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-l\"icucore\"",
@@ -614,7 +614,7 @@
 		};
 		AF12C8B321D22C91007450EF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF895488930BCF1BF608D806 /* Pods-GenesysBoldMessenger.release.xcconfig */;
+			baseConfigurationReference = F64987634AE56167948A0760 /* Pods-GenesysBoldMessenger.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -626,7 +626,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-l\"icucore\"",

@@ -17,9 +17,9 @@ install! 'cocoapods',
 # BLD_360_AI="../../bold360ai-mobile-ios/Bold360AI-Dev.podspec"
 
 # Dev
-source 'https://github.com/genesys/Bold360ai-SDK-Dev-Specs.git'
+#source 'https://github.com/genesys/Bold360ai-SDK-Dev-Specs.git'
 # Production
-# source 'https://github.com/genesys/Bold360ai-SDK-Specs.git'
+ source 'https://github.com/genesys/Bold360ai-SDK-Specs.git'
 
 source 'https://github.com/CocoaPods/Specs'
 
