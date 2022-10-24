@@ -14,16 +14,16 @@ install! 'cocoapods',
  BLD_AI_ENGINE="../../bold360-mobile-ios-boldaiengine/BoldAIEngine-Dev.podspec"
  BLD_AI_ACCESSIBILITY="../../bold360-mobile-ios-boldaiaccessibility/BoldAIAccessibility-Dev.podspec"
  BLD_ENGINE="../../mobile-bold-engine-ios/BoldEngine-Dev.podspec"
-#  BLD_360_AI="../../bold360ai-mobile-ios/Bold360AI-Dev.podspec"
+# BLD_360_AI="../../bold360ai-mobile-ios/Bold360AI-Dev.podspec"
 
 # Dev
-# source 'https://github.com/genesys/Bold360ai-SDK-Dev-Specs.git'
+#source 'https://github.com/genesys/Bold360ai-SDK-Dev-Specs.git'
 # Production
-source 'https://github.com/genesys/Bold360ai-SDK-Specs.git'
+ source 'https://github.com/genesys/Bold360ai-SDK-Specs.git'
 
 source 'https://github.com/CocoaPods/Specs'
 
-target 'BasicSample' do    
+target 'GenesysBoldMessenger' do    
     if defined? BLD_360_AI
         pod 'BoldCore', :path => BLD_CORE
         pod 'BoldAIEngine', :path => BLD_AI_ENGINE
@@ -34,3 +34,13 @@ target 'BasicSample' do
         pod 'Bold360AI'
     end
 end
+
+post_install do |installer|
+    installer.generated_projects.each do |project|
+      project.targets.each do |target|
+          target.build_configurations.each do |config|
+              config.build_settings["DEVELOPMENT_TEAM"] = "9U57N843V9"
+           end
+      end
+    end
+  end
